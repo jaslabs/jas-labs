@@ -14,9 +14,21 @@ const team = [
         icon: <Smartphone className="w-5 h-5" />,
         color: 'from-blue-500 to-indigo-500',
         description: 'Expert in crafting high-performance cross-platform mobile experiences with Flutter.',
-        github: 'https://github.com/Jahidul-Islam',
+        github: 'https://github.com/Jahidul007',
         linkedin: 'https://www.linkedin.com/in/jahidul-islam-43/',
         twitter: 'https://twitter.com/Jahidul-Islam'
+    },
+    {
+        name: 'Arman Abdullah',
+        role: 'Full Stack Developer',
+        expertise: 'Web, .NET, Modern Frontend',
+        image: armanImg,
+        icon: <Globe className="w-5 h-5" />,
+        color: 'from-orange-500 to-red-500',
+        description: 'Building robust and scalable web applications with .NET and modern frameworks.',
+        github: 'https://github.com/mdabdullahfaruque',
+        linkedin: 'https://www.linkedin.com/in/md-abdullah-faruque-43/',
+        twitter: 'https://twitter.com/ArmanAbdullah'
     },
     {
         name: 'Saifur Rahman',
@@ -29,18 +41,6 @@ const team = [
         github: 'https://github.com/Saifur43',
         linkedin: 'https://www.linkedin.com/in/saifur43',
         twitter: 'https://twitter.com/Saifur43'
-    },
-    {
-        name: 'Arman Abdullah',
-        role: 'Full Stack Developer',
-        expertise: 'Web, .NET, Modern Frontend',
-        image: armanImg,
-        icon: <Globe className="w-5 h-5" />,
-        color: 'from-orange-500 to-red-500',
-        description: 'Building robust and scalable web applications with .NET and modern frameworks.',
-        github: 'https://github.com/ArmanAbdullah',
-        linkedin: 'https://www.linkedin.com/in/arman-abdullah-43/',
-        twitter: 'https://twitter.com/ArmanAbdullah'
     }
 ];
 
