@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   return {
     // IMPORTANT: Replace 'REPO_NAME' with your GitHub repository name (e.g., '/my-project/')
     // If you are deploying to username.github.io, set this to '/'
-    base: '/jaslabs/',
+    base: '/jas-labs/',
     server: {
       port: 3000,
       host: '0.0.0.0',
