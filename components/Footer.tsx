@@ -4,7 +4,7 @@ import { Terminal, Github, Linkedin, Twitter } from 'lucide-react';
 const Footer: React.FC = () => {
   return (
     <footer className="border-t border-white/5 bg-navy-900 pt-20 pb-10">
-      <div className="container mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-16">
           <div>
             <a href="#" className="flex items-center gap-2 text-2xl font-bold tracking-tighter mb-6">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Button from './Button';
+import { Rocket, Zap } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -63,14 +64,14 @@ const Hero: React.FC = () => {
           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
           className="absolute top-1/2 -right-12 md:right-20 w-24 h-24 glass-card rounded-2xl flex items-center justify-center hidden lg:flex"
         >
-          <span className="text-4xl">🚀</span>
+          <Rocket className="w-10 h-10 text-cyan-400" />
         </motion.div>
         <motion.div
           animate={{ y: [0, 20, 0] }}
           transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
           className="absolute bottom-20 -left-12 md:left-20 w-32 h-32 glass-card rounded-2xl flex items-center justify-center hidden lg:flex"
         >
-          <span className="text-4xl">⚡</span>
+          <Zap className="w-12 h-12 text-teal-400" />
         </motion.div>
       </div>
     </section>
